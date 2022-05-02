@@ -1,0 +1,1005 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 12:14:44
+* VERSION: 4.0.1.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |Linux
+PHP VERSION_________: 7.4.23                                |7.4.26
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.26 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache
+DOC ROOT____________: "/home/utnza5kbtdpl/public_html/demo"
+LOG FILE 644________: false
+REQUEST URL_________: "http://qdevtechnolab.com/demo/dup-installer/main.installer.php"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+If start step 0 /home/utnza5kbtdpl/public_html/demo
+INSTALLER INFO
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/utnza5kbtdpl/public_html/demo"
+URL_NEW_____________: "http://qdevtechnolab.com/demo"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "/home/utnza5kbtdpl/public_html/demo/20220305_qdevtechnolab_[HASH]_20220305120952_archive.zip"
+ARCHIVE SIZE________: 177.44MB
+CREATED_____________: 2022-03-05 12:09:52
+WP VERSION__________: 5.9.1
+DUP VERSION_________: 4.0.1.2
+DB VERSION__________: 10.4.21
+DB FILE SIZE________: 33.27MB
+DB TABLES___________: 66
+DB ROWS_____________: 17970
+URL HOME____________: http://localhost/qdev
+URL CORE____________: http://localhost/qdev
+URL CONTENT_________: http://localhost/qdev/wp-content
+URL UPLOAD__________: http://localhost/qdev/wp-content/uploads
+URL PLUGINS_________: http://localhost/qdev/wp-content/plugins
+URL MU PLUGINS______: http://localhost/qdev/wp-content/mu-plugins
+URL THEMES__________: http://localhost/qdev/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/qdev
+PATH ABS____________: C:/xampp/htdocs/qdev
+PATH WPCONFIG_______: C:/xampp/htdocs/qdev
+PATH WPCONTENT______: C:/xampp/htdocs/qdev/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/qdev/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/qdev/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/qdev/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/qdev/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ] Advanced Custom Fields PRO
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ] Contact Form 7
+PLUGIN [SLUG:dt-redux-framework/redux-framework.php            ][ON:true ] DT Redux Framework
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ] Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ] Elementor
+PLUGIN [SLUG:one-click-demo-import/one-click-demo-import.php   ][ON:true ] One Click Demo Import
+PLUGIN [SLUG:saasland-core/saasland-core.php                   ][ON:true ] Saasland Core
+PLUGIN [SLUG:slider-revolution/revslider.php                   ][ON:true ] Slider Revolution
+PLUGIN [SLUG:supportboard/index.php                            ][ON:true ] Support Board
+PLUGIN [SLUG:ti-woocommerce-wishlist/ti-woocommerce-wishlist.php][ON:false] TI WooCommerce Wishlist
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:false] WooCommerce
+--------------------------------------
+--------------------------------------
+
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+LOG-TIME[/home/utnza5kbtdpl/public_html/demo/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.00325]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+LOG-TIME[/home/utnza5kbtdpl/public_html/demo/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.00327]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery URL" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery URL" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+LOG-TIME[DELTA:   0.00335]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00040]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Sufficient Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00021]  MESSAGE:TEST "Sufficient Disk Space" RESULT: good
+
+START TEST "Permissions" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00581]  MESSAGE:TEST "Permissions" RESULT: passed
+
+START TEST "Configs files permissions" [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Configs files permissions" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host name check" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Host name check" RESULT: passed
+
+START TEST "Verify Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00344]  MESSAGE:TEST "Verify Host Connection" RESULT: passed
+
+START TEST "Database version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00273]  MESSAGE:TEST "Database version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Confirm Database Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Confirm Database Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Test User Table Privileges" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.01840]  MESSAGE:TEST "Test User Table Privileges" RESULT: passed
+
+START TEST "Test SHOW VARIABLES query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00146]  MESSAGE:TEST "Test SHOW VARIABLES query" RESULT: passed
+
+START TEST "Default Character set and Collation support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00099]  MESSAGE:TEST "Default Character set and Collation support" RESULT: passed
+
+START TEST "Check Character set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Check Character set and  Collation Capability" RESULT: passed
+
+START TEST "Check GTID mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00036]  MESSAGE:TEST "Check GTID mode" RESULT: passed
+
+START TEST "Table Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00115]  MESSAGE:TEST "Table Case Sensitivity" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:15:22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+RESTORE BACKUP MODE_: false
+HOME URL NEW________: "http://qdevtechnolab.com/demo"
+SITE URL NEW________: "http://qdevtechnolab.com/demo"
+CONTENT URL NEW_____: "http://qdevtechnolab.com/demo/wp-content"
+UPLOAD URL NEW______: "http://qdevtechnolab.com/demo/wp-content/uploads"
+PLUGINS URL NEW_____: "http://qdevtechnolab.com/demo/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://qdevtechnolab.com/demo/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/utnza5kbtdpl/public_html/demo"
+SITE PATH NEW_______: "/home/utnza5kbtdpl/public_html/demo"
+CONTENT PATH NEW____: "/home/utnza5kbtdpl/public_html/demo/wp-content"
+UPLOAD PATH NEW_____: "/home/utnza5kbtdpl/public_html/demo/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/utnza5kbtdpl/public_html/demo/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/utnza5kbtdpl/public_html/demo/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP CORE________: false
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "/home/utnza5kbtdpl/public_html/demo"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+I'M GOING TO MOVE CONFIG FILE ".htaccess" IN ORIGINAL FOLDER
+	CONFIG FILE HAS BEEN RESET
+*** RESET CONFIG FILES OK
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 8.5627 sec. - Files processed: 2,005 of 15,551
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2005
+CHUNK COMPLETE - RUNTIME: 5.0933 sec. - Files processed: 4,922 of 15,551
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 4922
+CHUNK COMPLETE - RUNTIME: 5.1078 sec. - Files processed: 8,021 of 15,551
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8021
+CHUNK COMPLETE - RUNTIME: 5.2166 sec. - Files processed: 12,694 of 15,551
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12694
+CHUNK COMPLETE - RUNTIME: 5.0187 sec. - Files processed: 14,636 of 15,551
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14636
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14636
+FILE EXTRACTION: done processing last file in list of 15985
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 12:16:01 - RUNTIME: 38.9633 sec. - Files processed: 15,551 of 15,551
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 12:16:01
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+SPLIT CREATES_______: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.36 -- Build Server: 10.4.21
+FILE SIZE:	dup-database__[HASH].sql (22.5MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+TABLES AND ROWS IN ARCHIVE
+--------------------------------------
+TABLE "sb_conversations"________________________________[INSERTED ROWS:     0]
+TABLE "sb_messages"_____________________________________[INSERTED ROWS:     0]
+TABLE "sb_settings"_____________________________________[INSERTED ROWS:     0]
+TABLE "sb_users"________________________________________[INSERTED ROWS:     2]
+TABLE "sb_users_data"___________________________________[INSERTED ROWS:     0]
+TABLE "wp_actionscheduler_actions"______________________[INSERTED ROWS:     1]
+TABLE "wp_actionscheduler_claims"_______________________[INSERTED ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[INSERTED ROWS:     1]
+TABLE "wp_actionscheduler_logs"_________________________[INSERTED ROWS:     1]
+TABLE "wp_commentmeta"__________________________________[INSERTED ROWS:    44]
+TABLE "wp_comments"_____________________________________[INSERTED ROWS:    15]
+TABLE "wp_duplicator_pro_entities"______________________[INSERTED ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[INSERTED ROWS:     1]
+TABLE "wp_links"________________________________________[INSERTED ROWS:     0]
+TABLE "wp_options"______________________________________[INSERTED ROWS:   442]
+TABLE "wp_postmeta"_____________________________________[INSERTED ROWS: 15685]
+TABLE "wp_posts"________________________________________[INSERTED ROWS:  1494]
+TABLE "wp_revslider_css"________________________________[INSERTED ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[INSERTED ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[INSERTED ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_sliders_bkp"________________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_slides_bkp"_________________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[INSERTED ROWS:     0]
+TABLE "wp_revslider_static_slides_bkp"__________________[INSERTED ROWS:     0]
+TABLE "wp_term_relationships"___________________________[INSERTED ROWS:   369]
+TABLE "wp_term_taxonomy"________________________________[INSERTED ROWS:    68]
+TABLE "wp_termmeta"_____________________________________[INSERTED ROWS:     4]
+TABLE "wp_terms"________________________________________[INSERTED ROWS:    68]
+TABLE "wp_tinvwl_analytics"_____________________________[INSERTED ROWS:     0]
+TABLE "wp_tinvwl_items"_________________________________[INSERTED ROWS:     0]
+TABLE "wp_tinvwl_lists"_________________________________[INSERTED ROWS:     0]
+TABLE "wp_usermeta"_____________________________________[INSERTED ROWS:    26]
+TABLE "wp_users"________________________________________[INSERTED ROWS:     1]
+TABLE "wp_wc_admin_note_actions"________________________[INSERTED ROWS:    34]
+TABLE "wp_wc_admin_notes"_______________________________[INSERTED ROWS:    32]
+TABLE "wp_wc_category_lookup"___________________________[INSERTED ROWS:     1]
+TABLE "wp_wc_customer_lookup"___________________________[INSERTED ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[INSERTED ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[INSERTED ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[INSERTED ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[INSERTED ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[INSERTED ROWS:     0]
+TABLE "wp_wc_product_meta_lookup"_______________________[INSERTED ROWS:     0]
+TABLE "wp_wc_rate_limits"_______________________________[INSERTED ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[INSERTED ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[INSERTED ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[INSERTED ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[INSERTED ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[INSERTED ROWS:     0]
+--------------------------------------
+
+
+
+NOTICE: This servers version [5.7.36] is less than the build version [10.4.21].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 6149852
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 23426272
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+Starting Cleanup Routine...
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	135
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "sb_conversations"________________________________[ROWS:     0]
+TABLE "sb_messages"_____________________________________[ROWS:     0]
+TABLE "sb_settings"_____________________________________[ROWS:     0]
+TABLE "sb_users"________________________________________[ROWS:     2]
+TABLE "sb_users_data"___________________________________[ROWS:     0]
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     1]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     1]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     1]
+TABLE "wp_commentmeta"__________________________________[ROWS:    44]
+TABLE "wp_comments"_____________________________________[ROWS:    15]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   365]
+TABLE "wp_postmeta"_____________________________________[ROWS: 15685]
+TABLE "wp_posts"________________________________________[ROWS:  1494]
+TABLE "wp_revslider_css"________________________________[ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     0]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:     0]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     0]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   369]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    68]
+TABLE "wp_termmeta"_____________________________________[ROWS:     4]
+TABLE "wp_terms"________________________________________[ROWS:    68]
+TABLE "wp_tinvwl_analytics"_____________________________[ROWS:     0]
+TABLE "wp_tinvwl_items"_________________________________[ROWS:     0]
+TABLE "wp_tinvwl_lists"_________________________________[ROWS:     0]
+TABLE "wp_usermeta"_____________________________________[ROWS:    26]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    34]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    32]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     1]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    77]
+
+INSERT DATA RUNTIME: 11.8567 sec.
+STEP-2 COMPLETE @ 12:16:13 - RUNTIME: 11.8568 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:16:13
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+blogname______________: "QDev Technolab"
+url_old_______________: "http://localhost/qdev"
+url_new_______________: "http://qdevtechnolab.com/demo"
+siteurl_______________: "http://qdevtechnolab.com/demo"
+path_new______________: "/home/utnza5kbtdpl/public_html/demo"
+path_old______________: "C:/xampp/htdocs/qdev"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = ], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "sb_conversations"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sb_messages"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sb_settings"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sb_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][sb_users][0]
+
+EVALUATE TABLE: "sb_users_data"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_commentmeta][0]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   365][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 15685][PG:  16][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][10]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][11]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][12]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][13]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][14]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][15]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1494][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css][0]
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   369][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_tinvwl_analytics"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_tinvwl_items"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_tinvwl_lists"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_category_lookup][0]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/qdev" ============================> "/home/utnza5kbtdpl/public_html/demo"
+	SEARCH[urlnd]  2:"http://localhost/qdev" ===========================> "http://qdevtechnolab.com/demo"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:66 	|	 Rows:18375 	|	 Cells:102771 
+UPDATED:	Tables:7 	|	 Rows:712 	|	 Cells:889 
+ERRORS:		0 
+RUNTIME:	1.084800 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/utnza5kbtdpl/public_html/demo/wp-config.php
+New htaccess file created:/home/utnza5kbtdpl/public_html/demo/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""qdev""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+Installer Host Htaccess path: /home/utnza5kbtdpl/public_html/demo/dup-installer/original_files_[HASH]/installer_host_htaccess
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:16:14 - RUNTIME: 1.1593 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/utnza5kbtdpl/public_html/demo/dup-installer/ctrls/ctrl.base.php:236][DELTA:   0.03254]  MESSAGE:END RENDER PAGE

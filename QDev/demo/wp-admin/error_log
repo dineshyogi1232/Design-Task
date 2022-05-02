@@ -1,0 +1,2 @@
+[08-Mar-2022 10:20:15 UTC] Could not check system for sql lock support. wp_remote_request failed. Error: cURL error 60: SSL certificate problem: self signed certificate
+[08-Mar-2022 10:20:15 UTC] Trying again to get lock type with disabling sslverify

@@ -1,0 +1,28 @@
+{
+    "zip_filetime": "current",
+    "archive_action": "donothing",
+    "archive_skip_wp_core": false,
+    "archive_engine": "ziparchivechunking",
+    "extractonStart": 1646482522.061514,
+    "chunkStart": 1646482547.505413,
+    "root_path": "\/home\/utnza5kbtdpl\/public_html\/demo",
+    "archive_path": "\/home\/utnza5kbtdpl\/public_html\/demo\/20220305_qdevtechnolab_a2a4ef7e5018e6089737_20220305120952_archive.zip",
+    "ajax1_error_level": 32767,
+    "dawn_status": {},
+    "archive_offset": 14636,
+    "do_chunking": false,
+    "chunkedExtractionCompleted": false,
+    "num_files": 15985,
+    "sub_folder_archive": "",
+    "max_size_extract_at_a_time": 2097152,
+    "zip_arc_chunk_notice_no": -1,
+    "zip_arc_chunk_notice_change_last_time": 0,
+    "zip_arc_chunks_extract_rates": [
+        10524714.240296926,
+        9337186.04270567,
+        8611462.989565019,
+        9660780.364964841,
+        11162153.98766935
+    ],
+    "archive_items_count": 15551
+}
